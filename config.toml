@@ -12,7 +12,7 @@ theme = "hugo-coming-soon-theme"
   FilterColor = "black"
 
   # Each subtitle element will be displayed as a separate line
-	Subtitle = ["Photographer."]
+	Subtitle = ["Photographer. Producer."]
   CallToAction = "Join the waiting list. I'll keep you posted."
   Action = "Notify Me"
 

@@ -26,7 +26,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-transparent navbar-fixed-top" role="navigation">
+<!--  <nav class="navbar navbar-transparent navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#social-navbar-collapse">
@@ -37,7 +37,7 @@
       </button>
       </div>
 
-      <div class="collapse navbar-collapse" id="social-navbar-collapse">
+      <!--  <div class="collapse navbar-collapse" id="social-navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
             <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
@@ -45,8 +45,8 @@
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
-              <i class="fa fa-instagram-square"></i> Follow me
+            <a href="https://www.instagram.com/ninja_raccoon_17/{{ .Permalink }}">
+              <i class="fa fa-instagram"></i>Follow me
             </a>
           </li>
           <li>
@@ -65,22 +65,32 @@
             </a>
           </li> -->
         </ul>
-      </div>
+      </div> -->
     </div>
-  </nav>
+  </nav> -->
 
-<div class="main" style="background-image: url('images/video_bg.jpg')">
-  <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+<div class="main" style="background-image: url('images/bg.jpg')">
+  <!--<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
     <source src="video/time.webm" type="video/webm">
     <source src="video/time.mp4" type="video/mp4"> Video not supported
-  </video>
+  </video> -->
   <div class="cover {{ .Site.Params.FilterColor }}" data-color="{{ .Site.Params.FilterColor }}"></div>
   <div class="container">
     <h1 class="logo {{ if eq .Site.Params.TitleStyle " cursive " }}cursive{{ end }}">{{ .Site.Title }}</h1>
     <div class="content">
       <h4 class="motto">{{ delimit .Site.Params.Subtitle "<br/>"}}</h4>
-      <div class="subscribe">
+
+      <!-- <div class=>
+        <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
+        <h6>Follow me on</h6>
+        <a href="https://www.instagram.com/ninja_raccoon_17/{{ .Permalink }}">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </div>
+    </div> -->
+  <div class="subscribe">
         <h5 class="info-text">{{ .Site.Params.CallToAction }}</h5>
+
         <div class="row">
           <div id="mc_embed_signup" class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
             <form action="{{ .Site.Params.MailChimpFormAction }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
