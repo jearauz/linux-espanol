@@ -26,7 +26,7 @@
 </head>
 
 <body>
-<!--  <nav class="navbar navbar-transparent navbar-fixed-top" role="navigation">
+<!-- <nav class="navbar navbar-transparent navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#social-navbar-collapse">
@@ -37,37 +37,22 @@
       </button>
       </div>
 
-      <!--  <div class="collapse navbar-collapse" id="social-navbar-collapse">
+        <div class="collapse navbar-collapse" id="social-navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
             <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
-              <i class="fa fa-facebook-square"></i> Share
+              <i class="fa fa-facebook-square"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/ninja_raccoon_17/{{ .Permalink }}">
-              <i class="fa fa-instagram"></i>Follow me
+            <a href="https://www.instagram.com/ninja_raccoon_17/">
+              <i class="fa fa-instagram">
             </a>
           </li>
-          <li>
-            <a href="https://twitter.com/intent/tweet?text={{ .Site.Title }}:%20{{ delimit .Site.Params.Subtitle " "}}%0D%0A{{ .Permalink }}">
-              <i class="fa fa-twitter-square"></i> Tweet
-            </a>
-          </li>
-          <li>
-            <a href="https://plus.google.com/share?url={{ .Permalink }}">
-              <i class="fa fa-google-plus-square"></i> Plus
-            </a>
-          </li>
-          <!-- <li>
-            <a href="https://www.pinterest.com/pin/create/button/?url={{ .Permalink }}.com&media={{ .Site.BaseURL }}/images/video_bg.jpg&description={{ .Site.Title }}: {{ delimit .Site.Params.Subtitle " "}}">
-              <i class="fa fa-pinterest"></i> Pin
-            </a>
-          </li> -->
         </ul>
       </div> -->
     </div>
-  </nav> -->
+  </nav>-->
 
 <div class="main" style="background-image: url('images/bg.jpg')">
   <!--<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
@@ -80,15 +65,7 @@
     <div class="content">
       <h4 class="motto">{{ delimit .Site.Params.Subtitle "<br/>"}}</h4>
 
-      <!-- <div class=>
-        <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
-        <h6>Follow me on</h6>
-        <a href="https://www.instagram.com/ninja_raccoon_17/{{ .Permalink }}">
-          <i class="fa fa-instagram"></i>
-        </a>
-      </div>
-    </div> -->
-  <div class="subscribe">
+<div class="subscribe">
         <h5 class="info-text">{{ .Site.Params.CallToAction }}</h5>
 
         <div class="row">
@@ -105,6 +82,21 @@
           </div>
         </div>
       </div>
+      <div class="socialmedia">
+      <div class="row">
+        <h5 style="color:white">Follow me</h5>
+
+
+          <a href="https://www.instagram.com/ninja_raccoon_17/">
+          <i style="color:white" class="fa fa-instagram fa-5x"></i>
+        </a>
+        <a href="" style="text-center">
+
+          <i style="color:white" class="fa fa-facebook fa-5x"></i>
+        </a>
+    </div>
+  </div>
+
     </div>
   </div>
 </div>
