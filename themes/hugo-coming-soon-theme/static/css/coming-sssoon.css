@@ -817,7 +817,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     }
 }
 @media (min-width:991px){
-    .main .subscribe .form-group{
+    .main .subscribe .form-group .social{
         width: 190px;
     }
     .footer{
@@ -826,7 +826,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     }
 }
 @media (min-width:1200px){
-    .main .subscribe .form-group{
+    .main .subscribe .form-group .social{
         width: 250px;
     }
 }
