@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon.png">
   <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
   <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.png">
   <meta name="application-name" content="{{ .Site.Title }}">
@@ -19,7 +19,8 @@
   <link href="css/coming-sssoon.css" rel="stylesheet" />
 
   <!--Fonts-->
-  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+  <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet"> -->
+  <script src="https://kit.fontawesome.com/e2a46fd0e5.js" crossorigin="anonymous"></script>
   <link href="http://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet" type="text/css">
 
   {{ template "_internal/google_analytics.html" . }}
@@ -50,9 +51,9 @@
             </a>
           </li>
         </ul>
-      </div> -->
+      </div>
     </div>
-  </nav>-->
+  </nav> -->
 
 <div class="main" style="background-image: url('images/bg.jpg')">
   <!--<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
@@ -64,6 +65,20 @@
     <h1 class="logo {{ if eq .Site.Params.TitleStyle " cursive " }}cursive{{ end }}">{{ .Site.Title }}</h1>
     <div class="content">
       <h4 class="motto">{{ delimit .Site.Params.Subtitle "<br/>"}}</h4>
+      <div class="social">
+      <div class="row">
+        <h5>{{ .Site.Params.FollowMe }}</h5>
+
+
+          <a href="https://www.instagram.com/ninja_raccoon_17/">
+          <i class="fa fa-instagram fa-5x"></i>
+        </a>
+        <a href="">
+
+          <i class="fa fa-facebook fa-5x"></i>
+        </a>
+      </div>
+      </div>
 
 <div class="subscribe">
         <h5 class="info-text">{{ .Site.Params.CallToAction }}</h5>
@@ -82,20 +97,7 @@
           </div>
         </div>
       </div>
-      <div class="socialmedia">
-      <div class="row">
-        <h5 style="color:white">Follow me</h5>
 
-
-          <a href="https://www.instagram.com/ninja_raccoon_17/">
-          <i style="color:white" class="fa fa-instagram fa-5x"></i>
-        </a>
-        <a href="" style="text-center">
-
-          <i style="color:white" class="fa fa-facebook fa-5x"></i>
-        </a>
-    </div>
-  </div>
 
     </div>
   </div>

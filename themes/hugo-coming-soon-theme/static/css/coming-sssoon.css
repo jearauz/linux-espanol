@@ -776,6 +776,16 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 1;
 }
 
+.social{
+
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-bottom: 50px;
+
+}
+
 .footer{
     position: relative;
     bottom: 20px;
@@ -794,15 +804,15 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 
 @media (min-width:219px){
-    .main .subscribe .form-group {
+    .main .subscribe .form-group .social{
         width: auto;
     }
-    .main .subscribe .form-inline .btn{
+    .main .subscribe .form-inline .btn .social{
         width: 100%;
     }
 }
 @media (min-width:768px){
-    .main .subscribe .form-inline .btn{
+    .main .subscribe .form-inline .btn .social{
         width: auto;
     }
 }
